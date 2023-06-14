@@ -46,6 +46,6 @@ const vehicle = {
     isEnviromentallyFriendly: true
 }
 
-for (let property in vehicle) {
+for (property in vehicle) {
     console.log(`${property}: ${vehicle[property]}`) 
 }
